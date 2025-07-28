@@ -12,12 +12,22 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     ['meta', { name: 'keywords', content: '双链,笔记,Markdown,编辑器,小说,写作,神器' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/images/logo.png' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/images/logo.png' }],
+    ['script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?e1661327935700a9f5d390d9df33cbbf";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();`
+    ]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/images/logo.png',
     outlineTitle: '目录',
+    lastUpdatedText: '上次更新',
     docFooter: {
       prev: '上一页',
       next: '下一页'
