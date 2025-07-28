@@ -1,0 +1,32 @@
+{
+    "name": "MyIdea",
+    "version": "0.1.0",
+    "slogan": "激发你的创造力",
+    "description": "专业的个人知识、论文、小说创作软件",
+    "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.1.0-beta/myidea-0.1.0-mac-arm64.dmg",
+    "macIntel": "",
+    "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.1.0-beta/myidea-0.1.0-win-x64.exe",
+    "winArm": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.1.0-beta/myidea-0.1.0-win-arm64.exe",
+    "templates": [
+        {
+            "key": 1,
+            "src": "/images/template-novel.png",
+            "file": "/templates/小说.zip",
+            "width": 1600,
+            "height": 1888,
+            "title": "小说",
+            "description": "完整的小说项目模板，包括原稿、人物设定、地点创建、研究、笔记。已创建好章节模板、人物设定模板、笔记模板、地点信息模版。"
+        }
+    ],
+    "themes": [
+        {
+            "key": 1,
+            "src": "/images/simple-light.png",
+            "file": "/themes/MyIdea-Theme-Simple.zip",
+            "width": 3024,
+            "height": 1888,
+            "title": "简约",
+            "description": "简约风格，排除各种干扰项，让你把精力投入到写作当中。"
+        }
+    ]
+}

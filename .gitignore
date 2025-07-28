@@ -1,0 +1,16 @@
+node_modules
+out
+.DS_Store
+.eslintcache
+*.log*
+Thumbs.db
+package-lock.json
+.gitignore.swp
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
