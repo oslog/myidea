@@ -9,6 +9,7 @@ export default defineConfig({
   metaChunk: true,
   appearance: 'dark',
   cleanUrls: true,
+  lastUpdated: true,
   head: [
     ['meta', { name: 'keywords', content: '双链,笔记,Markdown,编辑器,小说,写作,神器' }],
     ['link', { rel: 'icon', type: 'image/png', href: '/images/logo.png' }]
@@ -103,7 +104,7 @@ export default defineConfig({
 
     footer: {
       // message: '<a href="download">下载</a><a href="guide">使用手册</a>',
-      copyright: 'Copyright © 2025 mihaotu.com <a href="">浙ICP备11005358号-1</a>'
+      copyright: 'Copyright © 2025 mihaotu.com'
     }
   }
 })
