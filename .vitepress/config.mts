@@ -2,6 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  sitemap: {
+    hostname: 'https://www.mihaotu.com',
+    lastmodDateOnly: true
+  },
   lang: 'zh-CN',
   title: "MyIdea",
   description: "激活你的灵感",
