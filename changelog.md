@@ -4,6 +4,7 @@ sidebar: false
 prev: false
 next: false
 outline: deep
+lastUpdated: true
 ---
 
 # 更新日志
@@ -11,6 +12,8 @@ outline: deep
 ### v0.1.1
 
 > 2025-08-6
+
+公测版暂时仅发布 MacOS Arm64 版本，其它版本（Windows）在较为稳定后发布。
 
 1. 优化【设置】窗口的实现逻辑；
 2. 将总览由半年调整为一年；
