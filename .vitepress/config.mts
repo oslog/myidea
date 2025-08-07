@@ -80,10 +80,11 @@ export default defineConfig({
             link: '/myidea/guide/editor/operation-area/',
             collapsed: false,
             items: [
-              { text: '信息面板', link: '/myidea/guide/editor/operation-area/info' },
-              { text: '标签面板', link: '/myidea/guide/editor/operation-area/tag' },
-              { text: '附件面板', link: '/myidea/guide/editor/operation-area/attachment' },
-              { text: '快照面板', link: '/myidea/guide/editor/operation-area/snapshot' },
+              { text: '信息', link: '/myidea/guide/editor/operation-area/info' },
+              { text: '大纲', link: '/myidea/guide/editor/operation-area/outline' },
+              { text: '标签', link: '/myidea/guide/editor/operation-area/tag' },
+              { text: '附件', link: '/myidea/guide/editor/operation-area/attachment' },
+              { text: '快照', link: '/myidea/guide/editor/operation-area/snapshot' },
               { text: '局部关系图谱', link: '/myidea/guide/editor/operation-area/relationship-graph' },
             ]
           },
