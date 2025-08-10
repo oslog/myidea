@@ -5,8 +5,9 @@
     "description": "专业的个人知识、论文、小说创作软件",
     "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.1.1-beta/myidea-0.1.1-mac-arm64.dmg",
     "macIntel": "",
-    "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.1.0-beta/myidea-0.1.0-win-x64.exe",
-    "winArm": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.1.0-beta/myidea-0.1.0-win-arm64.exe",
+    "winX86": "",
+    "winArm": "",
+    "downloadRemark": "🔔：正式版（v1.0.0）上线前暂时仅开放 MacOS Arm64 版本下载。",
     "templates": [
         {
             "key": 1,

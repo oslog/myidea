@@ -11,11 +11,12 @@
                 <a v-if="winArm" class="im-button im-windows" :href="winArm">Windows arm_64</a>
             </div>
             <div class="im-version"><span>最新版本: </span><span>v{{ version }}</span></div>
+            <div v-if="downloadRemark" class="im-remark">{{ downloadRemark }}</div>
         </div>
     </div>
 </template>
 <script lang="ts" setup>
-import { version, macSilicon, macIntel, winX86, winArm } from '../../../data.json';
+import { version, macSilicon, macIntel, winX86, winArm, downloadRemark } from '../../../data.json';
 
 </script>
 <style lang="css" scoped>
@@ -90,5 +91,16 @@ import { version, macSilicon, macIntel, winX86, winArm } from '../../../data.jso
 
 .im-version {
     color: #657b83;
+}
+
+.im-remark {
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ffff9f;
+    padding: 5px 10px;
+    border: 1px dotted #a58701;
+    border-radius: 6px;
+    color: #626262;
+
 }
 </style>
