@@ -82,6 +82,7 @@ export default defineConfig({
             items: [
               { text: '信息', link: '/myidea/guide/editor/operation-area/info' },
               { text: '大纲', link: '/myidea/guide/editor/operation-area/outline' },
+              { text: '注释', link: '/myidea/guide/editor/operation-area/comment' },
               { text: '标签', link: '/myidea/guide/editor/operation-area/tag' },
               { text: '附件', link: '/myidea/guide/editor/operation-area/attachment' },
               { text: '快照', link: '/myidea/guide/editor/operation-area/snapshot' },
