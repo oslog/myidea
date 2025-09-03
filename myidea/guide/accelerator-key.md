@@ -67,3 +67,36 @@ outline: deep
 | Ctrl + Alt + C | Command + Option + C | 在右侧添加列 |
 | Ctrl + Alt + BackSpace | Command + Option + BackSpace | 删除列 |
 | Ctrl + Shift + BackSpace | Command + Shift + BackSpace | 删除行 |
+
+## 思维导图
+
+| Windows | MacOS | 说明 |
+| :------ | ----- | --- |
+| Ctrl + L | Command + L | 重置画布 |
+| Tab | Tab | 插入下级节点 |
+| Enter | Enter | 插入同级节点 |
+| Shift + Tab | Shift + Tab | 插入父节点 |
+| Ctrl + ↑ | Command + ↑ | 上移节点 |
+| Ctrl + ↓ | Command + ↓ | 下移节点 |
+| Ctrl + G | Command + G | 插入概要 |
+| / | / | 展开/收起节点 |
+| Delete | Backspace | Delete | Backspace | 删除节点 |
+| Shift + Backspace | Shift + Backspace | 仅删除当前节点 |
+| Ctrl + C | Command + C | 复制节点 |
+| Ctrl + X | Command + X | 剪切节点 |
+| Ctrl + V | Command + V | 粘贴节点 |
+| Shift + Enter | Shift + Enter | 文本换行 |
+| Ctrl + Z | Command + Z | 回退 |
+| Ctrl + Shift + Z | Command + Shift + Z | 前进 |
+| Ctrl + A | Command + A | 全选 |
+| 右键 / Ctrl + 左键 | 右键 / Ctrl + 左键 | 多选 |
+| Ctrl + L | Command + L | 整理布局 |
+| Ctrl + + | Command + + | 放大 |
+| Ctrl + - | Command + - | 缩小 |
+| Ctrl + 鼠标滚动 | Command + 鼠标滚动 | 放大缩小 |
+| Ctrl + Enter | Command + Enter | 回到根节点 |
+| Ctrl + I | Command + I | 适应画布 |
+| Ctrl + Shift + I | Command + Shift + I | 插入图片 |
+| Ctrl + Shift + T | Command + Shift + T | 插入图标 |
+| Ctrl + Shift + L | Command + Shift + L | 插入链接 |
+| Ctrl + Shift + N | Command + Shift + N | 插入笔记 |

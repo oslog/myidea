@@ -74,7 +74,15 @@ export default defineConfig({
         items: [
           { text: '工具栏', link: '/myidea/guide/editor/top-tools' },
           { text: '文件树', link: '/myidea/guide/editor/file-tree' },
-          { text: '工作区', link: '/myidea/guide/editor/work-area' },
+          {
+            text: '工作区',
+            link: '/myidea/guide/editor/work-area',
+            collapsed: false,
+            items: [
+              { text: 'Markdown', link: '/myidea/guide/editor/work-area/markdown' },
+              { text: '思维导图', link: '/myidea/guide/editor/work-area/mindmap' },
+            ]
+          },
           {
             text: '功能区',
             link: '/myidea/guide/editor/operation-area/',

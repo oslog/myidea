@@ -1,3 +1,4 @@
+<!--顶部-->
 <template>
     <div class="im-home">
         <div class="im-title">
@@ -10,11 +11,13 @@
 </template>
 <script lang="ts" setup>
 import data from '../../../data.json';
+
 </script>
 <style lang="scss" scoped>
 .im-home {
     width: 100%;
-    display: grid;
+    // display: grid;
+    // display: flex;
     place-items: center;
     padding-top: 100px;
     padding-bottom: 150px;
