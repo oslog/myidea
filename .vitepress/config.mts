@@ -47,7 +47,7 @@ export default defineConfig({
       { text: '主题', link: '/theme' },
       { text: '模板', link: '/template' },
       { text: '反馈', link: '/feedback' },
-      { text: '更新日志', link: '/changelog' },
+      { text: '更新日志', link: '/changelog' }
     ],
 
     sidebar: [
