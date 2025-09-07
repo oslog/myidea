@@ -22,12 +22,12 @@
     "themes": [
         {
             "key": 1,
-            "src": "/images/simple-light.png",
-            "file": "/themes/MyIdea-Theme-Simple.zip",
+            "src": "/images/MyIdea-Primary.png",
+            "file": "/themes/Myidea-Primary.zip",
             "width": 3024,
             "height": 1888,
-            "title": "简约",
-            "description": "简约风格，排除各种干扰项，让你把精力投入到写作当中。"
+            "title": "Primary",
+            "description": "怀旧、温暖、舒适、高效。"
         }
     ]
 }
