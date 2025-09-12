@@ -69,6 +69,7 @@ onMounted(() => {
 
                 pswp.on('change', () => {
                     el.href = pswp.currSlide.data.element.dataset.fileUrl;
+                    console.log(">>>>>>", el.href);
                 });
             }
         });

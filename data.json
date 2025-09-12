@@ -23,11 +23,20 @@
         {
             "key": 1,
             "src": "/images/MyIdea-Primary.png",
-            "file": "/themes/Myidea-Primary.zip",
+            "file": "https://gitcode.com/hiswing/MyIdea/releases/download/theme/Myidea-Primary.zip",
             "width": 3024,
             "height": 1888,
             "title": "Primary",
             "description": "怀旧、温暖、舒适、高效。"
+        },
+        {
+            "key": 2,
+            "src": "/images/MyIdea-Obsidian.png",
+            "file": "https://gitcode.com/hiswing/MyIdea/releases/download/theme/Myidea-Obsidian.zip",
+            "width": 3024,
+            "height": 1888,
+            "title": "Obsidian",
+            "description": "高仿Obsidian主题。"
         }
     ]
 }

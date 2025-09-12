@@ -2,12 +2,12 @@
   "hash": "ab86705b",
   "configHash": "5ddd38a8",
   "lockfileHash": "1521b33a",
-  "browserHash": "09d54ff9",
+  "browserHash": "2c9f1343",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "4c8c8d70",
+      "fileHash": "be48f8dc",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
@@ -19,13 +19,13 @@
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "be7e401e",
+      "fileHash": "50a2052e",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "7276442f",
+      "fileHash": "6c6a9711",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
@@ -43,13 +43,31 @@
     "swiper/modules": {
       "src": "../../../node_modules/swiper/modules/index.mjs",
       "file": "swiper_modules.js",
-      "fileHash": "0b6dc4ad",
+      "fileHash": "65bc06d1",
       "needsInterop": false
     },
     "swiper/vue": {
       "src": "../../../node_modules/swiper/swiper-vue.mjs",
       "file": "swiper_vue.js",
-      "fileHash": "64f42295",
+      "fileHash": "2aca230c",
+      "needsInterop": false
+    },
+    "photoswipe/lightbox": {
+      "src": "../../../node_modules/photoswipe/dist/photoswipe-lightbox.esm.js",
+      "file": "photoswipe_lightbox.js",
+      "fileHash": "28dd770f",
+      "needsInterop": false
+    },
+    "photoswipe-dynamic-caption-plugin": {
+      "src": "../../../node_modules/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js",
+      "file": "photoswipe-dynamic-caption-plugin.js",
+      "fileHash": "e9ffd35f",
+      "needsInterop": false
+    },
+    "photoswipe": {
+      "src": "../../../node_modules/photoswipe/dist/photoswipe.esm.js",
+      "file": "photoswipe.js",
+      "fileHash": "d8f7340a",
       "needsInterop": false
     }
   },
@@ -57,11 +75,11 @@
     "chunk-ECKPOFXB": {
       "file": "chunk-ECKPOFXB.js"
     },
-    "chunk-W6V53FDX": {
-      "file": "chunk-W6V53FDX.js"
-    },
     "chunk-DIPF5HFI": {
       "file": "chunk-DIPF5HFI.js"
+    },
+    "chunk-W6V53FDX": {
+      "file": "chunk-W6V53FDX.js"
     }
   }
 }

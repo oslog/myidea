@@ -1,17 +1,4 @@
 import {
-  computed,
-  h,
-  inject,
-  nextTick,
-  onBeforeUnmount,
-  onBeforeUpdate,
-  onMounted,
-  onUpdated,
-  provide,
-  ref,
-  watch
-} from "./chunk-W6V53FDX.js";
-import {
   animateCSSModeScroll,
   createElement,
   deleteProps,
@@ -27,12 +14,25 @@ import {
   getDocument,
   getTranslate,
   getWindow,
-  nextTick as nextTick2,
+  nextTick,
   now,
   setCSSProperty,
   setInnerHTML,
   showWarning
 } from "./chunk-DIPF5HFI.js";
+import {
+  computed,
+  h,
+  inject,
+  nextTick as nextTick2,
+  onBeforeUnmount,
+  onBeforeUpdate,
+  onMounted,
+  onUpdated,
+  provide,
+  ref,
+  watch
+} from "./chunk-W6V53FDX.js";
 
 // node_modules/swiper/shared/swiper-core.mjs
 var support;
@@ -1722,7 +1722,7 @@ function slideToClickedSlide() {
     } else if (slideToIndex > (isGrid ? (swiper.slides.length - slidesPerView) / 2 - (swiper.params.grid.rows - 1) : swiper.slides.length - slidesPerView)) {
       swiper.loopFix();
       slideToIndex = swiper.getSlideIndex(elementChildren(slidesEl, `${slideSelector}[data-swiper-slide-index="${realIndex}"]`)[0]);
-      nextTick2(() => {
+      nextTick(() => {
         swiper.slideTo(slideToIndex);
       });
     } else {
@@ -2512,7 +2512,7 @@ function onTouchEnd(event) {
     }
   }
   data.lastClickTime = now();
-  nextTick2(() => {
+  nextTick(() => {
     if (!swiper.destroyed) swiper.allowClick = true;
   });
   if (!data.isTouched || !data.isMoved || !swiper.swipeDirection || touches.diff === 0 && !data.loopSwapReset || data.currentTranslate === data.startTranslate && !data.loopSwapReset) {
@@ -4861,7 +4861,7 @@ var Swiper2 = {
     });
     provide("swiper", swiperRef);
     watch(virtualData, () => {
-      nextTick(() => {
+      nextTick2(() => {
         updateOnVirtualData(swiperRef.value);
       });
     });
