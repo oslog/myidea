@@ -1,9 +1,9 @@
 {
     "name": "MyIdea",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "slogan": "激发你的创造力",
     "description": "专业的个人知识、论文、小说创作软件",
-    "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.0-beta/myidea-0.3.0-mac-arm64.dmg",
+    "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.1-beta/myidea-0.3.1-mac-arm64.dmg",
     "macIntel": "",
     "winX86": "",
     "winArm": "",
