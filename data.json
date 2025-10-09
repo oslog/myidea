@@ -5,7 +5,7 @@
     "description": "专业的个人知识、论文、小说创作软件",
     "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.1-beta/myidea-0.3.1-mac-arm64.dmg",
     "macIntel": "",
-    "winX86": "",
+    "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.1-beta/myidea-0.3.1-win-x64.exe",
     "winArm": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.1-beta/myidea-0.3.1-win-arm64.exe",
     "downloadRemark": "",
     "templates": [
