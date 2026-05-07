@@ -7,7 +7,7 @@
     "macIntel": "",
     "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.2-beta/myidea-0.3.2-win-x64.exe",
     "winArm": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.2-beta/myidea-0.3.2-win-arm64.exe",
-    "downloadRemark": "",
+    "downloadRemark": "MacOS下提示“已损坏无法打开”的问题，只须在终端执行以下命令并按提示输入开机密码即可：<br/><p><code>sudo xattr -rd com.apple.quarantine /Applications/MyIdea.app</code></p>",
     "templates": [
         {
             "key": 1,

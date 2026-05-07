@@ -117,7 +117,8 @@ export default defineConfig({
           { text: '搜索', link: '/myidea/guide/search' },
           { text: '文件模板', link: '/myidea/guide/file-template' },
           { text: '双向链接', link: '/myidea/guide/towway-link' },
-          { text: '快捷键', link: '/myidea/guide/accelerator-key' }
+          { text: '快捷键', link: '/myidea/guide/accelerator-key' },
+          { text: '常见问题', link: '/myidea/guide/question' }
         ]
       }
     ],

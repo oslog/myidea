@@ -11,7 +11,7 @@
                 <a v-if="winArm" class="im-button im-windows" :href="winArm">Windows arm_64</a>
             </div>
             <div class="im-version"><span>最新版本: </span><span>v{{ version }}</span></div>
-            <div v-if="downloadRemark" class="im-remark">{{ downloadRemark }}</div>
+            <div v-if="downloadRemark" class="im-remark" v-html="downloadRemark"></div>
         </div>
     </div>
 </template>
@@ -95,7 +95,7 @@ import { version, macSilicon, macIntel, winX86, winArm, downloadRemark } from '.
 
 .im-remark {
     text-align: center;
-    margin-top: 10px;
+    margin-bottom: 25px;
     background-color: #ffff9f;
     padding: 5px 10px;
     border: 1px dotted #a58701;
