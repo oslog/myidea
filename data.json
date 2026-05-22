@@ -1,12 +1,12 @@
 {
     "name": "MyIdea",
-    "version": "0.3.3-Beta(公测版)",
+    "version": "0.3.4-Beta(公测版)",
     "slogan": "激发你的创造力",
     "description": "专业的个人知识、论文、小说创作软件",
-    "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.3-beta/myidea-0.3.3-mac-arm64.dmg",
+    "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.4-beta/myidea-0.3.3-mac-arm64.dmg",
     "macIntel": "",
-    "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.3-beta/myidea-0.3.3-win-x64.exe",
-    "winArm": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.3-beta/myidea-0.3.3-win-arm64.exe",
+    "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.4-beta/myidea-0.3.3-win-x64.exe",
+    "winArm": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.4-beta/myidea-0.3.3-win-arm64.exe",
     "downloadRemark": "MacOS下提示“已损坏无法打开”的问题，只须在终端执行以下命令并按提示输入开机密码即可：<br/><p><code>sudo xattr -rd com.apple.quarantine /Applications/MyIdea.app</code></p>",
     "templates": [
         {
