@@ -9,10 +9,6 @@ next: false
 
 # 反馈建议、BUG提交
 
-## Issues
-
-可以在 https://gitcode.com/hiswing/MyIdea/issues 提交遇到的问题。
-
 ## 邮件
 
 如果你发现Bug或有好的建议，请发送邮件至 `hiswing@126.com`，我们会在第一时间确认并回复。

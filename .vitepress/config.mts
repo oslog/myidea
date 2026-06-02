@@ -129,7 +129,7 @@ export default defineConfig({
 
     footer: {
       // message: '<a href="download">下载</a><a href="guide">使用手册</a>',
-      copyright: 'Copyright © 2025 mihaotu.com'
+      copyright: 'Copyright © 2025 - 2026 mihaotu.com'
     }
   }
 })
