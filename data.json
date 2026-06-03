@@ -4,9 +4,9 @@
     "slogan": "激发你的创造力",
     "description": "专业的个人知识、论文、小说创作软件",
     "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.5-beta/myidea-0.3.5-mac-arm64.dmg",
-    "macIntel": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.5-beta/myidea-0.3.5-mac-x64.dmg",
+    "macIntel": "",
     "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.5-beta/myidea-0.3.5-win-x64.exe",
-    "winArm": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.5-beta/myidea-0.3.5-win-arm64.exe",
+    "winArm": "",
     "templates": [
         {
             "key": 1,
