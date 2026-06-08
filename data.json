@@ -1,11 +1,11 @@
 {
     "name": "MyIdea",
-    "version": "0.3.5-Beta(公测版)",
+    "version": "0.3.6-Beta(公测版)",
     "slogan": "激发你的创造力",
     "description": "专业的个人知识、论文、小说创作软件",
-    "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.5-beta/myidea-0.3.5-mac-arm64.dmg",
+    "macSilicon": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.6-beta/myidea-0.3.6-mac-arm64.dmg",
     "macIntel": "",
-    "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.5-beta/myidea-0.3.5-win-x64.exe",
+    "winX86": "https://gitcode.com/hiswing/MyIdea/releases/download/v0.3.6-beta/myidea-0.3.6-win-x64.exe",
     "winArm": "",
     "templates": [
         {
